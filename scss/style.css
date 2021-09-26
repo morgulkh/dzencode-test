@@ -473,6 +473,8 @@ section:not(:first-child) {
 .footer .footer_container .col_left {
   max-width: 470px;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
 }
 .footer .footer_container .col_left p {
   padding: 45px 0;

@@ -469,6 +469,8 @@ section:not(:first-child) {
     .col_left {
       max-width: 470px;
       min-width: 300px;
+      display: flex;
+      flex-direction: column;
       p {
         padding: 45px 0;
       }
